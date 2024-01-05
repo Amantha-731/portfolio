@@ -1,0 +1,290 @@
+*{
+   
+    background-image: url(background_image.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+                     /*INTRODUCTION*/
+
+
+#header{
+    width:98%;
+    height:40px;
+    margin-right: 20px;
+    
+}
+
+.nav_bar{
+     padding-left: 12% ;
+
+}
+
+nav{
+    display:flex;
+    align-items:cnter;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:10px;
+    margin-right: 0%;
+  
+   
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-family: sans-serif;
+    margin-right: 20px;
+    border-left: #4db2ec solid 5px;
+    padding-left: 15px;
+}
+
+
+nav ul li a:hover{
+    color:#6cc1f3;
+    font-style:normal;
+    font-size: 120%;
+   
+
+
+}
+.intro{
+    color:whitesmoke;
+    position:relative;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding:5px;
+    display: flex;
+   
+}
+.intro_head{
+    max-width: 700px;
+
+}
+.img{
+   border:#4db2ec solid 5px;
+   border-style: outset;
+   border-radius: 5px;
+   height: 370px;
+   width:500px;
+   margin-left: 50px;
+   margin-right: 0px;
+   margin-top: 0px;
+}
+
+                 /*EDUCATION*/
+
+
+.edu{
+    margin-top: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+
+}
+.content{
+    display:flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.container{
+    margin-right: 10px;
+    font-size:140%;
+    color:white;
+    text-align: justify left;
+    border:solid 3px #4db2ec;
+    border-style: outset;
+    border-radius: 5px;
+}
+
+#im{
+    border:solid 3px #4db2ec;
+    border-style: outset;
+    border-radius: 5px;
+
+}
+
+
+                         /*SKILLS*/
+
+
+
+#my-skills{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 50px;
+    color:#4db2ec;
+    
+}
+
+.skills-area{
+    display: flex;
+    flex-direction: column;
+    padding-left:10%;
+}
+.skill{
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.skill-title{
+    font-size: 40px;
+    margin-bottom: 0px;
+    color:#4db2ec;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+
+.skill-fill{
+     border-radius: 100px;
+    background: #4db2ec;;
+    height:40px;
+    border-radius: 40px;
+    border:black solid 10px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+}
+
+.skill-percent{
+    font-size: 30px;
+    background:#4db2ec;
+
+}
+
+.html{
+   
+    width:70%
+}
+
+.css{
+  
+    width:80%;
+}
+.js{
+   
+    width:50%;
+}
+
+
+                  /*CONTACT*/
+
+                  
+                 
+                
+#contact-me{
+    text-align: center;
+                  
+}
+                
+.contact-box{
+    justify-content:space-between ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+                   
+}
+.contact-box form{
+    justify-content:space-between ;
+                
+}
+                
+.contact-box form input{
+    display: block;
+    width:100%;
+    font-size: 18px;
+    justify-content:space-between ;
+    color:white;
+                
+ }
+.contact-box form #name{
+    height:40px;
+    margin-bottom: 25px;
+    border: solid 3px transparent;
+    border-bottom: #4db2ec 3px solid;
+    border-radius: 5px;
+                    
+}
+.contact-box form #email{
+    height:40px;
+    margin-bottom: 25px;
+    border: solid 3px transparent;
+    border-bottom: #4db2ec 3px solid;
+    border-radius: 5px;
+                    
+}
+                
+.contact-box form #message{
+    height:90px;
+    margin-bottom: 25px;
+    border: solid 3px transparent;
+    border-bottom: #4db2ec 3px solid;
+    border-radius: 5px;
+                  
+}
+                
+.contact-box form #submit{
+    width:20%;
+    height:50px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    border:3px solid;
+    color:#4db2ec;
+}
+.contact-box form #submit:hover{
+    font-size:18px;
+    color:white;
+}
+                
+                /*End*/
+
+                
+.end{
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    display:flex;
+    background-color: black;
+}
+.address{
+    display: flex;
+    font-size: 35px;
+    color: aliceblue;
+    margin-right: 20%;
+}
+.phone p{
+    display:flex;
+    font-size: 20px;
+    color:aliceblue;
+}
+                
+
+                
+                              
