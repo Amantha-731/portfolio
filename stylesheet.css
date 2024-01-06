@@ -75,7 +75,7 @@ nav ul li a:hover{
    
 }
 .intro_head{
-    width: 45%;
+    max-width: 700px;
 
 }
 .img{
